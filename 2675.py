@@ -1,6 +1,3 @@
-# [2675](https://www.acmicpc.net/problem/2675)
-
-```python
 T = int(input())
 test_case = []
 for i in range(T):
@@ -17,5 +14,6 @@ for i in range(len(test_case)):
     for j in range(len(test_case[i][1])):
         print(test_case[i][1][j] * int(test_case[i][0]), end = "")
     print()
-```
 
+
+        

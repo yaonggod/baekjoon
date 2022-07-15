@@ -1,6 +1,3 @@
-# [2941](https://www.acmicpc.net/problem/2941)
-
-```python
 def croatian(word : str):
     if 'c=' in word:
         word = word.replace("c=", '1')
@@ -30,5 +27,3 @@ def croatian(word : str):
 
 word = input()
 print(len(croatian(word)))
-```
-

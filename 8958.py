@@ -1,6 +1,3 @@
-# [8958](https://www.acmicpc.net/problem/8958)
-
-```python
 T = int(input())
 case = []
 for i in range(T):
@@ -26,5 +23,3 @@ def score(a : str):
 
 for i in range(T):
     print(score(case[i]))
-```
-

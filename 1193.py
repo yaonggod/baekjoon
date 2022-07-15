@@ -1,13 +1,9 @@
-# [1193](https://www.acmicpc.net/problem/1193)
-
-```python
 x = int(input())
 
 def sum(n):
     return int(n * (n + 1) / 2)
 
 # (1), (2, 3), (4, 5, 6), (7, 8, 9, 10) ... 으로 구분 가능, 각 그룹의 마지막 항은 sum(n)
-
 # x가 몇 번째 그룹에 속하는지
 def x_in(n):
     n = 0
@@ -34,5 +30,5 @@ if n % 2 == 0:
 # 홀수번째 그룹은 올라감
 else:
     print(str(n - i + 1) + "/" + str(i))
-```
 
+    

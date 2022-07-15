@@ -1,8 +1,3 @@
-# [1157]()
-
-chr함수와 ord함수를 활용, ord('a')는 97부터 시작해서 1씩 증가
-
-```python
 word = input()
 alphabet = [0 for _ in range(26)]
 
@@ -16,5 +11,3 @@ if alphabet.count(max_alphabet) != 1:
 else:
     max_alphabet_index = alphabet.index(max_alphabet)
     print(chr(max_alphabet_index + 97).upper())
-```
-

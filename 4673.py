@@ -1,6 +1,3 @@
-# [4673]()
-
-```python
 self_number = []
 for i in range(1, 10001):
     self_number.append(i)
@@ -20,5 +17,3 @@ for i in range(1, 10001):
         
 for i in self_number:
     print(i)
-```
-

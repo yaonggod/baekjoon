@@ -1,6 +1,3 @@
-# [1075](https://www.acmicpc.net/problem/1075)
-
-```python
 a = int(input())
 b = int(input())
 
@@ -10,5 +7,3 @@ while a % b != 0:
 
 c = a % 100
 print('%02d' % c)
-```
-

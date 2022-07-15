@@ -1,6 +1,3 @@
-# [1316](https://www.acmicpc.net/problem/1316)
-
-```python
 N = int(input())
 words = []
 for i in range(N):
@@ -29,5 +26,4 @@ for i in range(N):
     sum_group.append(group(words[i]))
 
 print(sum(sum_group))
-```
 

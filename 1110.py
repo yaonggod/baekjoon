@@ -1,6 +1,3 @@
-# [1110](https://www.acmicpc.net/problem/1110)
-
-```python
 n = int(input())
 a = n
 b = 0
@@ -16,5 +13,3 @@ else:
         count += 1
     
 print(count)
-```
-

@@ -1,6 +1,3 @@
-# [5622](https://www.acmicpc.net/problem/5622)
-
-```python
 word = input()
 number_lst = []
 
@@ -24,5 +21,3 @@ for i in range(len(word)):
         
 print(sum(number_lst))
         
-```
-

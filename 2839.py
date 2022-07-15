@@ -1,8 +1,3 @@
-# [2839](https://www.acmicpc.net/problem/2839)
-
-재귀함수와 전역변수 활용, 모든 경우에 return값을 넣어야 함
-
-```python
 n = int(input())
 bag_3 = 0
 bag_5 = 0
@@ -31,6 +26,3 @@ def bag(n):
         return bag_3 + bag_5
             
 print(bag(n))
-
-```
-

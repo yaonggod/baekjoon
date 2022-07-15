@@ -1,6 +1,3 @@
-# [10250](https://www.acmicpc.net/problem/10250)
-
-```python
 # (101, 201, 301, ... h01), (102, 202, 302, ... h02), ... (10w, 20w, ... h0w)
 t = int(input())
 test_case = []
@@ -21,5 +18,3 @@ for i in range(t):
     
 for i in answer_list:
     print(i)
-```
-

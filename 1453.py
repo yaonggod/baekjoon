@@ -1,6 +1,3 @@
-# [1453](https://www.acmicpc.net/problem/1453)
-
-```python
 n = int(input())
 lst = list(map(int, input().split()))
 
@@ -17,5 +14,3 @@ for i in range(100):
         count += computer[i] - 1
 
 print(count)
-```
-

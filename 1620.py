@@ -1,8 +1,3 @@
-# [1620](https://www.acmicpc.net/problem/1620])
-
-리스트보다 딕셔너리가 더 효율적일 때가 있다
-
-```python
 m, n = map(int, input().split())
 dict = {}
 lst = []
@@ -11,7 +6,6 @@ for i in range(1, m + 1):
 for i in range(n):
     lst.append(input())
     
-# 딕셔너리 뒤집기
 dict2 = {v:k for k, v in dict.items()}
        
 for i in lst:
@@ -20,8 +14,3 @@ for i in lst:
         print(dict[j])
     except:
         print(dict2[i])
-
-```
-
-
-

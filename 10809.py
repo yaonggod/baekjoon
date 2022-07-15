@@ -1,6 +1,3 @@
-# [10809](https://www.acmicpc.net/problem/10809)
-
-```python
 word = input()
 word2 = list(map(ord, word))
 
@@ -28,5 +25,3 @@ for i in range(len(word2)):
 
 for i in alphabet:
     print(i, end = " ")
-```
-

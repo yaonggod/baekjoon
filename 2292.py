@@ -1,6 +1,3 @@
-# [2292](https://www.acmicpc.net/problem/2292)
-
-```python
 x = int(input())
 
 # (1), (2 ~ 7), (8 ~ 19), (20 ~ 37), (38 ~ 61), ...
@@ -17,7 +14,29 @@ def x_in(x):
 
 print(x_in(x))
     
-```
+
+    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # if n == 1:
+#     print(1)
+# else:
+    

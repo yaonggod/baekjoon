@@ -1,6 +1,3 @@
-# [4344](https://www.acmicpc.net/problem/4344)
-
-```python
 C = int(input())
 test_case = []
 for i in range(C):
@@ -24,5 +21,3 @@ for i in range(n):
     
 for i in percentage:
     print("%.3f"% i + "%")
-```
-

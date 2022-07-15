@@ -1,6 +1,3 @@
-# [14425](https://www.acmicpc.net/problem/14425)
-
-```python
 m, n = map(int, input().split())
 lst = []
 lst2 = []
@@ -14,7 +11,4 @@ for i in lst2:
     if i in lst:
         count += 1
         
-print(count)
-```
-
-
+print(lst, lst2)
